@@ -1,0 +1,64 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.nav-center {
+    display: flex;
+    justify-content: flex-start; /* Updated */
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end; /* Updated */
+    align-items: center;
+    list-style: none;
+    text-transform:capitalize;
+}
+
+.nav-links a {
+    margin: 0 1rem;
+    color: black;
+    text-decoration: none;
+    list-style: none; /* Added */
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #f9f9f9;
+    color: black;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
